@@ -38,6 +38,9 @@ jobs:
   
     - name: List current folder
       run : ls -la
+      
+    - name: Print current directory
+      run : pwd
   
   my_deploy:
     runs-on: ubuntu-latest
